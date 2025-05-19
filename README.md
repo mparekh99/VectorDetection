@@ -54,6 +54,8 @@ Follow these setup guides:
 > ⚠️ Make sure both Vectors are paired and configured via the WIREPOD and SDK before running any scripts.
 
 ## Usage
+Running the script allows you to control the Vector robot using your arrow keys, while simultaneously viewing a live video feed from its front-facing camera. Thanks to our YOLOv8 model and OpenCV integration, the video stream is enhanced with real-time object detection. Detected objects—including other Vector robots—are highlighted with labeled bounding boxes directly on the video feed, providing instant visual feedback as the robot moves.
+
 ```
 python detect.py
 ```
